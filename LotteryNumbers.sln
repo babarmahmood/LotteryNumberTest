@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryNumbers", "LotteryNumbers\LotteryNumbers.csproj", "{F5E9596C-237E-4AD5-BE3C-69E02E4F0573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryNumbersTest", "LotteryNumbersTest\LotteryNumbersTest.csproj", "{6D215F7F-FA8C-4C51-8B9D-18361E37121D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5E9596C-237E-4AD5-BE3C-69E02E4F0573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E9596C-237E-4AD5-BE3C-69E02E4F0573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E9596C-237E-4AD5-BE3C-69E02E4F0573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E9596C-237E-4AD5-BE3C-69E02E4F0573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D215F7F-FA8C-4C51-8B9D-18361E37121D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D215F7F-FA8C-4C51-8B9D-18361E37121D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D215F7F-FA8C-4C51-8B9D-18361E37121D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D215F7F-FA8C-4C51-8B9D-18361E37121D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EEC1559-3DD7-4901-9F59-29E4FD22882B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿@model LotteryNumbers.Models.LotteryNumbersDto
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@*I have kept the background color logic at front end as its just UI realted how we want to present end result*@
+
+<div class="numberListContainer">
+    <div class="row">
+        @foreach (var number in Model.LotteryNumbers)
+        {
+            string numberStyle = "background-color:" + (number < 10 ? "grey" : number< 20? "blue": number<30? "pink": number <40?"green":"yellow");
+            <div class="col-lg-1 numberContainer" style=@numberStyle>
+                <span>@number</span>
+            </div>
+        }
+    </div>
+</div>
